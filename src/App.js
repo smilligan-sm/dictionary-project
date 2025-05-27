@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "./milligantechlogosmall.png";
 import './App.css';
 import Dictionary from "./Dictionary";
@@ -11,7 +12,7 @@ export default function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Learning"/>
         </main>
         <footer className="App-footer">Coded by Sarah Milligan</footer>
       </div>

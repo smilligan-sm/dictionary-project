@@ -1,0 +1,17 @@
+.Dictionary {
+  font-size: 20px;
+  width: 80%;
+  margin-left: 120px;
+}
+
+.Dictionary input {
+  width: 60%;
+  border-radius: 8px;
+  color: #333;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .Search {
+  text-align: center;
+}
