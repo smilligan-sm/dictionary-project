@@ -1,7 +1,7 @@
 .Dictionary {
   font-size: 20px;
-  width: 80%;
-  margin-left: 120px;
+  padding: 20px;
+
 }
 
 .Dictionary input {
@@ -14,4 +14,7 @@
 
 .Dictionary .Search {
   text-align: center;
+  width: 80%;
+  margin-left: 60px;
+  margin-bottom: 40px;
 }

@@ -6,10 +6,10 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="Container">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
-          <h1>Dictionary</h1>
+          <h1>Sarah's English Dictionary</h1>
         </header>
         <main>
           <Dictionary defaultKeyword="Learning"/>
