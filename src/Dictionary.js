@@ -13,10 +13,6 @@ export default function Dictionary(props) {
     console.log(response.data[0]);
   }
 
-  function handlesheCodesResponse(response) {
-    setPhotos(response.data.photos.slice(0, 9));
-  }
-
   function search() {
     // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
@@ -26,7 +22,7 @@ export default function Dictionary(props) {
     let sheCodesAPIUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKey}`;
     axios
       .get(sheCodesAPIUrl, { headers: { Authorization: `Bearer ${apiKey}` } })
-      .then(handlesheCodesResponse);
+
   }
   function handleSubmit(event) {
     event.preventDefault();
