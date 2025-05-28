@@ -14,8 +14,8 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="Learning"/>
         </main>
-        <footer className="App-footer">Coded by Sarah Milligan</footer>
       </div>
+      <footer className="App-footer">Coded by Sarah Milligan</footer>
     </div>
   );
 }

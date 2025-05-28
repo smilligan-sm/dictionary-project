@@ -48,6 +48,9 @@ export default function Dictionary(props) {
               autoFocus={true}
             />
           </form>
+          <div className="hint">
+            suggested words: serendipity, wistfulness, loquacious...
+          </div>
         </div>
         <Results results={results} />
       </div>

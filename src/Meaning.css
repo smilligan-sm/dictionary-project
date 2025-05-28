@@ -6,3 +6,7 @@
 .Meaning .definition {
   font-size: 20px;
 }
+.Meaning .example {
+  color: #70757a;
+  font-style: italic;
+}
