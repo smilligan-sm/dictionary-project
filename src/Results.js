@@ -3,9 +3,7 @@ import Meaning from "./Meaning";
 import "./Results.css";
 
 export default function Results(props) {
-    if (
-      props.results
-    ) {
+    if (props.results) {
         return(
             <div className="Results">
                 <section>
@@ -17,17 +15,13 @@ export default function Results(props) {
                         <section key={index}>
                             <Meaning meaning={meaning} />
                         </section>
-                    );      
+
+                    );
+                
                 })}
             </div>)
     } else {
-        return(
-          <div className="No-results">
-                <section>
-                <h2>Please try again with a valid word!</h2>
-                </section>
-            </div>
-        )
+        return null;
     }
 
 }
