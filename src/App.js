@@ -12,10 +12,12 @@ export default function App() {
           <h1>Sarah's English Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="Learning"/>
+          <Dictionary defaultKeyword="learning"/>
         </main>
       </div>
-      <footer className="App-footer">Coded by Sarah Milligan</footer>
+      <footer className="App-footer">
+        Built by <a href="https://www.linkedin.com/in/sarahlouisemilligan/" target="_blank" rel="noreferrer">Sarah Milligan</a>, is open-sourced on <a href="https://github.com/smilligan-sm/dictionary-project" target="_blank" rel="noreferrer">Github</a> and hosted on <a href="https://sm-dictionary.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>
+        </footer>
     </div>
   );
 }
