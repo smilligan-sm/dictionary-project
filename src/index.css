@@ -1,9 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  font-family: "Play", sans-serif;
+  background-image: url("pexels-neilyonamine-8237959.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 code {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Audiowide", sans-serif;
 }

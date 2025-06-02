@@ -23,6 +23,9 @@
   top: 18px;
   left: 40px;
   padding-bottom: 50px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .App-footer {
   margin: 30px 0;
@@ -32,7 +35,7 @@
     padding: 5px 0 0 0;
     text-align: center;
     font-size: 12px;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 .App footer a {
     color: #1490ad;
